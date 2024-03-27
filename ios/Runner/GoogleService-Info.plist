@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyCbW60QEY-wDzgEv67KNEPXSBKrTxRp374</string>
+	<key>GCM_SENDER_ID</key>
+	<string>555888098044</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.iotProject</string>
+	<key>PROJECT_ID</key>
+	<string>fir-esp8266-8e47b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fir-esp8266-8e47b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:555888098044:ios:1dcb204d65d8f98c04f579</string>
+	<key>DATABASE_URL</key>
+	<string>https://fir-esp8266-8e47b-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
