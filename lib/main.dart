@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:iot_project/air_quality_screen.dart';
 import 'firebase_options.dart';
 import 'level_screen.dart';
 
@@ -17,11 +18,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'IoT Oil Monitoring Project',
+      title: 'Oil Tank Monitoring',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Oil Level Monitoring'),
+      home: const MyHomePage(title: 'Dashboard'),
     );
   }
 }
@@ -34,7 +35,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.teal,
+        backgroundColor: ThemeData.dark().primaryColor,
         title: Text(
           title,
           style: const TextStyle(
@@ -45,8 +46,29 @@ class MyHomePage extends StatelessWidget {
         ),
         centerTitle: true,
       ),
-      body: const Center(
-        child: DistanceScreen(),
+      body: Container(
+        padding: const EdgeInsets.all(20),
+        child: const SingleChildScrollView(
+          child: Center(
+            child: Column(
+              children: [
+                SizedBox(height: 20),
+                Text(
+                  "Oil Tank Level",
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 24.0,
+                    fontWeight: FontWeight.w400,
+                  ),
+                ),
+                DistanceScreen(),
+                Divider(),
+                SizedBox(height: 20),
+                AirQualityScreen(),
+              ],
+            ),
+          ),
+        ),
       ),
     );
   }

@@ -21,7 +21,10 @@ class _DistanceScreenState extends State<DistanceScreen> {
           // Parse distance value from snapshot
           double distance = double.tryParse(snapshot.data!.snapshot.value.toString()) ?? 0.0;
           // Return LevelProgressBar widget with distance value
-          return DistanceProgressScreen(distance: distance);
+          return Padding(
+            padding: const EdgeInsets.all(20),
+            child: DistanceProgressScreen(distance: distance),
+          );
         } else {
           return const Text('No data');
         }
