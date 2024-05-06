@@ -1,16 +1,18 @@
 # Flutter real time monitoring of sensor output for IoT project 
 
-IoT Project Oil Tank Monitoring
+<img src="https://github.com/Prakhar29Sharma/Flutter_IoT_Project/blob/main/readme_asset/icon.png?raw=true" width="240px"/>
 
-## Getting Started
+## Proposed System Architecture
 
-This project is a starting point for a Flutter application.
+<img src="https://github.com/Prakhar29Sharma/Flutter_IoT_Project/blob/main/readme_asset/System%20Flow.png?raw=true" width="720px" />
 
-A few resources to get you started if this is your first Flutter project:
+## Implementation and Demo
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Dashboard
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="https://github.com/Prakhar29Sharma/Flutter_IoT_Project/blob/main/readme_asset/app-ss.jpg?raw=true" width="400px" />
+
+System Implementation
+
+<img src="https://github.com/Prakhar29Sharma/Flutter_IoT_Project/blob/main/readme_asset/implementation.jpg?raw=true" width="720px" />
+
